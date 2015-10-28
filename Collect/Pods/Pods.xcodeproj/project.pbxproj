@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DC29A7C7F294F17F0292289 /* IObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 18CB10B2ECAA69F00CA203D3 /* IObserver.h */; };
+		114CDC3E3C1580952D56F427 /* MacroCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 890B982581687C61A9E22806 /* MacroCommand.h */; };
+		1A1B657C454636E1CECE0301 /* Model.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DCBED89C39B9E270883BA14 /* Model.h */; };
+		1EB374AA417FA31FAB5FB375 /* INotifier.h in Headers */ = {isa = PBXBuildFile; fileRef = DD0E445F3A3F497DB0C93FE2 /* INotifier.h */; };
+		22F4AA06A715187277DD8915 /* Mediator.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BE687226FAC50FF8CCDC46 /* Mediator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2488A0304B2460C18B2E0E57 /* Controller.h in Headers */ = {isa = PBXBuildFile; fileRef = CAF677A4D28DA4F1552555D2 /* Controller.h */; };
+		267BE3E5D2F717047F77EA24 /* SimpleCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D07550985062186BCB44BBA /* SimpleCommand.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		27549590B5DC4D151A85509B /* Observer.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E95B25FDAA3B27CE6330D1 /* Observer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		286B71C8C1B0BD5B285F5E1D /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B459C363D86C1A8CAA5E95 /* View.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		29D2AFB49DF308A6E7A1028C /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE00F5D34DC4A4A99240D99 /* Model.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		29EAF38AC530F6BDCD6FF528 /* IFacade.h in Headers */ = {isa = PBXBuildFile; fileRef = EE3D8CB4691875EFC655C6AC /* IFacade.h */; };
+		2B666EB8889590694A6400CF /* View.h in Headers */ = {isa = PBXBuildFile; fileRef = 597A5435276ABA28B69256F3 /* View.h */; };
+		2D95A45633260F791C239BC7 /* Notifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EEC86EEF06427F37BCA5D29 /* Notifier.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2F55FB5E7947B2CE5DC68985 /* Mediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C20123A8F313C0EC3B3FADB /* Mediator.h */; };
+		32D268F2FB83F1458FC2A14A /* SimpleCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C0990527AE17E1247C52D2 /* SimpleCommand.h */; };
+		4702DF42EF6C80D792679BD1 /* IController.h in Headers */ = {isa = PBXBuildFile; fileRef = 948275AB2B0A95DF4871CFEA /* IController.h */; };
+		4B7BD2C38F17F432E8CED4FD /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3472C02B0008BDD80DF6BB /* Pods-dummy.m */; };
+		5B06BCE9A099864C828E7AF4 /* INotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 49949153005D9A5963284D02 /* INotification.h */; };
+		70C5B6A974A8F477B3A6892D /* Facade.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C7084B676A6E03DF8CF1BF /* Facade.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		71292C1A5A115613204E5C83 /* ICommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 46F7BC086B863748EEEF1AF8 /* ICommand.h */; };
+		7424372FFC0F6988EAE9A9FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5320A32CAF3240AEDD31EB44 /* Foundation.framework */; };
+		74262F1C3A636D96E1082D7B /* Proxy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1770C4D82A8125B35E7F1F1 /* Proxy.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7F88FAA41FD67FA104A83A67 /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B271500F6C0F7D190BE20D4 /* Controller.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8479FA056B286D37827083F8 /* IModel.h in Headers */ = {isa = PBXBuildFile; fileRef = F1846CC262688223658EAEE3 /* IModel.h */; };
+		8DF06F37FCE55BEA98E9DBA5 /* IView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B978FEFF9F2A2974C324721 /* IView.h */; };
+		8F05694A582395E324CEECE8 /* IProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 49AC646CFC1CF208D426FF10 /* IProxy.h */; };
+		961757A1A37487A8403B30EF /* Notification.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABAE37FC89FBDAE4D19925F /* Notification.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B718B4F8809BA0EAD308A5B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5320A32CAF3240AEDD31EB44 /* Foundation.framework */; };
+		B79A722FD31387B22D9E13CA /* MacroCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6C8A807C544B9DE6CA320A /* MacroCommand.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CF51FA4CB2FABE70BEE88580 /* Observer.h in Headers */ = {isa = PBXBuildFile; fileRef = FD59689951EA29C5B6A33CB0 /* Observer.h */; };
+		DCCEBF41515EEAB499DDD732 /* Pods-puremvc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216E609385C1A0F57FC7153 /* Pods-puremvc-dummy.m */; };
+		DF332DCEB9C81AA89B12649A /* Notifier.h in Headers */ = {isa = PBXBuildFile; fileRef = CC06EF294BA4AC938A825C73 /* Notifier.h */; };
+		E02916BCF65B10654422B586 /* Facade.h in Headers */ = {isa = PBXBuildFile; fileRef = 7621BDB1860EFADB087AB71B /* Facade.h */; };
+		EBE9DC6422B0B9314A824E19 /* IMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 78EA5DDC934512002F7D561A /* IMediator.h */; };
+		F6C641FC3D1E8AE1610F947D /* Proxy.h in Headers */ = {isa = PBXBuildFile; fileRef = B7C5405B5CF6A3B7037930C1 /* Proxy.h */; };
+		F9F2C93E4C53FA90F69F4809 /* Notification.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A7532EA820C3D04D61CD407 /* Notification.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9BB97ACA9306206E77CCA038 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 535D139EEB9AE4697B7EED92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C79DE54721CBBE3E5DF895B;
+			remoteInfo = "Pods-puremvc";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1435FE904A4392599B5A366A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		16C0990527AE17E1247C52D2 /* SimpleCommand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SimpleCommand.h; path = src/org/puremvc/objectivec/patterns/command/SimpleCommand.h; sourceTree = "<group>"; };
+		18CB10B2ECAA69F00CA203D3 /* IObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IObserver.h; path = src/org/puremvc/objectivec/interfaces/IObserver.h; sourceTree = "<group>"; };
+		1A7532EA820C3D04D61CD407 /* Notification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Notification.h; path = src/org/puremvc/objectivec/patterns/observer/Notification.h; sourceTree = "<group>"; };
+		1ABAE37FC89FBDAE4D19925F /* Notification.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Notification.m; path = src/org/puremvc/objectivec/patterns/observer/Notification.m; sourceTree = "<group>"; };
+		1C20123A8F313C0EC3B3FADB /* Mediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Mediator.h; path = src/org/puremvc/objectivec/patterns/mediator/Mediator.h; sourceTree = "<group>"; };
+		1DCBED89C39B9E270883BA14 /* Model.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Model.h; path = src/org/puremvc/objectivec/core/Model.h; sourceTree = "<group>"; };
+		1DE00F5D34DC4A4A99240D99 /* Model.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Model.m; path = src/org/puremvc/objectivec/core/Model.m; sourceTree = "<group>"; };
+		2D07550985062186BCB44BBA /* SimpleCommand.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SimpleCommand.m; path = src/org/puremvc/objectivec/patterns/command/SimpleCommand.m; sourceTree = "<group>"; };
+		2DDD548E4F3E1E5A50E9E66E /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2EEC86EEF06427F37BCA5D29 /* Notifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Notifier.m; path = src/org/puremvc/objectivec/patterns/observer/Notifier.m; sourceTree = "<group>"; };
+		46F7BC086B863748EEEF1AF8 /* ICommand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ICommand.h; path = src/org/puremvc/objectivec/interfaces/ICommand.h; sourceTree = "<group>"; };
+		49949153005D9A5963284D02 /* INotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INotification.h; path = src/org/puremvc/objectivec/interfaces/INotification.h; sourceTree = "<group>"; };
+		49AC646CFC1CF208D426FF10 /* IProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IProxy.h; path = src/org/puremvc/objectivec/interfaces/IProxy.h; sourceTree = "<group>"; };
+		5216E609385C1A0F57FC7153 /* Pods-puremvc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-puremvc-dummy.m"; sourceTree = "<group>"; };
+		5320A32CAF3240AEDD31EB44 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		597A5435276ABA28B69256F3 /* View.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = View.h; path = src/org/puremvc/objectivec/core/View.h; sourceTree = "<group>"; };
+		5B271500F6C0F7D190BE20D4 /* Controller.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Controller.m; path = src/org/puremvc/objectivec/core/Controller.m; sourceTree = "<group>"; };
+		6F500ECBD7318686FE08638A /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		75B459C363D86C1A8CAA5E95 /* View.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = View.m; path = src/org/puremvc/objectivec/core/View.m; sourceTree = "<group>"; };
+		7621BDB1860EFADB087AB71B /* Facade.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Facade.h; path = src/org/puremvc/objectivec/patterns/facade/Facade.h; sourceTree = "<group>"; };
+		78B43C19811F3884FFFBCF0D /* Pods-puremvc-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-puremvc-Private.xcconfig"; sourceTree = "<group>"; };
+		78EA5DDC934512002F7D561A /* IMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IMediator.h; path = src/org/puremvc/objectivec/interfaces/IMediator.h; sourceTree = "<group>"; };
+		7B3472C02B0008BDD80DF6BB /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		7E9E435C99F6567B3E61BB71 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		890B982581687C61A9E22806 /* MacroCommand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MacroCommand.h; path = src/org/puremvc/objectivec/patterns/command/MacroCommand.h; sourceTree = "<group>"; };
+		8DDF7F8E7A8D5D6008FB66F9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E6C8A807C544B9DE6CA320A /* MacroCommand.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MacroCommand.m; path = src/org/puremvc/objectivec/patterns/command/MacroCommand.m; sourceTree = "<group>"; };
+		9010A5752DE260478587EE06 /* Pods-puremvc-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-puremvc-prefix.pch"; sourceTree = "<group>"; };
+		948275AB2B0A95DF4871CFEA /* IController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IController.h; path = src/org/puremvc/objectivec/interfaces/IController.h; sourceTree = "<group>"; };
+		9B978FEFF9F2A2974C324721 /* IView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IView.h; path = src/org/puremvc/objectivec/interfaces/IView.h; sourceTree = "<group>"; };
+		A1770C4D82A8125B35E7F1F1 /* Proxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Proxy.m; path = src/org/puremvc/objectivec/patterns/proxy/Proxy.m; sourceTree = "<group>"; };
+		A1BE687226FAC50FF8CCDC46 /* Mediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Mediator.m; path = src/org/puremvc/objectivec/patterns/mediator/Mediator.m; sourceTree = "<group>"; };
+		B54355E3C02B62CC0C61F10B /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		B6C7084B676A6E03DF8CF1BF /* Facade.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Facade.m; path = src/org/puremvc/objectivec/patterns/facade/Facade.m; sourceTree = "<group>"; };
+		B7C5405B5CF6A3B7037930C1 /* Proxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Proxy.h; path = src/org/puremvc/objectivec/patterns/proxy/Proxy.h; sourceTree = "<group>"; };
+		C38D29EC522F3DD052803F7C /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		C4E95B25FDAA3B27CE6330D1 /* Observer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Observer.m; path = src/org/puremvc/objectivec/patterns/observer/Observer.m; sourceTree = "<group>"; };
+		CAF677A4D28DA4F1552555D2 /* Controller.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Controller.h; path = src/org/puremvc/objectivec/core/Controller.h; sourceTree = "<group>"; };
+		CC06EF294BA4AC938A825C73 /* Notifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Notifier.h; path = src/org/puremvc/objectivec/patterns/observer/Notifier.h; sourceTree = "<group>"; };
+		D748067BE3366C735E4803AC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		DD0E445F3A3F497DB0C93FE2 /* INotifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INotifier.h; path = src/org/puremvc/objectivec/interfaces/INotifier.h; sourceTree = "<group>"; };
+		EE3D8CB4691875EFC655C6AC /* IFacade.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFacade.h; path = src/org/puremvc/objectivec/interfaces/IFacade.h; sourceTree = "<group>"; };
+		F15DE7A79E2568958920B7B9 /* Pods-puremvc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-puremvc.xcconfig"; sourceTree = "<group>"; };
+		F1846CC262688223658EAEE3 /* IModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IModel.h; path = src/org/puremvc/objectivec/interfaces/IModel.h; sourceTree = "<group>"; };
+		F1B7C67B980947FDD3CB401A /* libPods-puremvc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-puremvc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD59689951EA29C5B6A33CB0 /* Observer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Observer.h; path = src/org/puremvc/objectivec/patterns/observer/Observer.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33655970F811C32176400198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B718B4F8809BA0EAD308A5B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E5CDCFB50AD96AFC1CD84E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7424372FFC0F6988EAE9A9FD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38993D38C79F359C3776C1CC /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5320A32CAF3240AEDD31EB44 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3CE49BDD3E8CA65573F2B2D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DDF7F8E7A8D5D6008FB66F9 /* libPods.a */,
+				F1B7C67B980947FDD3CB401A /* libPods-puremvc.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FB7B847348EAFF208E8FC3A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				60D330A7E61FDA98594AF94B /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		60D330A7E61FDA98594AF94B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DDD548E4F3E1E5A50E9E66E /* Pods-acknowledgements.markdown */,
+				B54355E3C02B62CC0C61F10B /* Pods-acknowledgements.plist */,
+				7B3472C02B0008BDD80DF6BB /* Pods-dummy.m */,
+				7E9E435C99F6567B3E61BB71 /* Pods-environment.h */,
+				C38D29EC522F3DD052803F7C /* Pods-resources.sh */,
+				1435FE904A4392599B5A366A /* Pods.debug.xcconfig */,
+				D748067BE3366C735E4803AC /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		848E20C5560D01BF6E23339E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F15DE7A79E2568958920B7B9 /* Pods-puremvc.xcconfig */,
+				78B43C19811F3884FFFBCF0D /* Pods-puremvc-Private.xcconfig */,
+				5216E609385C1A0F57FC7153 /* Pods-puremvc-dummy.m */,
+				9010A5752DE260478587EE06 /* Pods-puremvc-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-puremvc";
+			sourceTree = "<group>";
+		};
+		95A464BD25A672F9760ADC71 /* puremvc */ = {
+			isa = PBXGroup;
+			children = (
+				CAF677A4D28DA4F1552555D2 /* Controller.h */,
+				5B271500F6C0F7D190BE20D4 /* Controller.m */,
+				7621BDB1860EFADB087AB71B /* Facade.h */,
+				B6C7084B676A6E03DF8CF1BF /* Facade.m */,
+				46F7BC086B863748EEEF1AF8 /* ICommand.h */,
+				948275AB2B0A95DF4871CFEA /* IController.h */,
+				EE3D8CB4691875EFC655C6AC /* IFacade.h */,
+				78EA5DDC934512002F7D561A /* IMediator.h */,
+				F1846CC262688223658EAEE3 /* IModel.h */,
+				49949153005D9A5963284D02 /* INotification.h */,
+				DD0E445F3A3F497DB0C93FE2 /* INotifier.h */,
+				18CB10B2ECAA69F00CA203D3 /* IObserver.h */,
+				49AC646CFC1CF208D426FF10 /* IProxy.h */,
+				9B978FEFF9F2A2974C324721 /* IView.h */,
+				890B982581687C61A9E22806 /* MacroCommand.h */,
+				8E6C8A807C544B9DE6CA320A /* MacroCommand.m */,
+				1C20123A8F313C0EC3B3FADB /* Mediator.h */,
+				A1BE687226FAC50FF8CCDC46 /* Mediator.m */,
+				1DCBED89C39B9E270883BA14 /* Model.h */,
+				1DE00F5D34DC4A4A99240D99 /* Model.m */,
+				1A7532EA820C3D04D61CD407 /* Notification.h */,
+				1ABAE37FC89FBDAE4D19925F /* Notification.m */,
+				CC06EF294BA4AC938A825C73 /* Notifier.h */,
+				2EEC86EEF06427F37BCA5D29 /* Notifier.m */,
+				FD59689951EA29C5B6A33CB0 /* Observer.h */,
+				C4E95B25FDAA3B27CE6330D1 /* Observer.m */,
+				B7C5405B5CF6A3B7037930C1 /* Proxy.h */,
+				A1770C4D82A8125B35E7F1F1 /* Proxy.m */,
+				16C0990527AE17E1247C52D2 /* SimpleCommand.h */,
+				2D07550985062186BCB44BBA /* SimpleCommand.m */,
+				597A5435276ABA28B69256F3 /* View.h */,
+				75B459C363D86C1A8CAA5E95 /* View.m */,
+				848E20C5560D01BF6E23339E /* Support Files */,
+			);
+			path = puremvc;
+			sourceTree = "<group>";
+		};
+		BE50EB902FE7F6F50927C1D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38993D38C79F359C3776C1CC /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6FC59ADD56B3CA301B74C27 = {
+			isa = PBXGroup;
+			children = (
+				6F500ECBD7318686FE08638A /* Podfile */,
+				BE50EB902FE7F6F50927C1D3 /* Frameworks */,
+				F7ACF61D45F0E600A8D2E78A /* Pods */,
+				3CE49BDD3E8CA65573F2B2D8 /* Products */,
+				5FB7B847348EAFF208E8FC3A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		F7ACF61D45F0E600A8D2E78A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				95A464BD25A672F9760ADC71 /* puremvc */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A9FEA79D5C87B1E10897DB60 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2488A0304B2460C18B2E0E57 /* Controller.h in Headers */,
+				E02916BCF65B10654422B586 /* Facade.h in Headers */,
+				71292C1A5A115613204E5C83 /* ICommand.h in Headers */,
+				4702DF42EF6C80D792679BD1 /* IController.h in Headers */,
+				29EAF38AC530F6BDCD6FF528 /* IFacade.h in Headers */,
+				EBE9DC6422B0B9314A824E19 /* IMediator.h in Headers */,
+				8479FA056B286D37827083F8 /* IModel.h in Headers */,
+				5B06BCE9A099864C828E7AF4 /* INotification.h in Headers */,
+				1EB374AA417FA31FAB5FB375 /* INotifier.h in Headers */,
+				0DC29A7C7F294F17F0292289 /* IObserver.h in Headers */,
+				8F05694A582395E324CEECE8 /* IProxy.h in Headers */,
+				8DF06F37FCE55BEA98E9DBA5 /* IView.h in Headers */,
+				114CDC3E3C1580952D56F427 /* MacroCommand.h in Headers */,
+				2F55FB5E7947B2CE5DC68985 /* Mediator.h in Headers */,
+				1A1B657C454636E1CECE0301 /* Model.h in Headers */,
+				F9F2C93E4C53FA90F69F4809 /* Notification.h in Headers */,
+				DF332DCEB9C81AA89B12649A /* Notifier.h in Headers */,
+				CF51FA4CB2FABE70BEE88580 /* Observer.h in Headers */,
+				F6C641FC3D1E8AE1610F947D /* Proxy.h in Headers */,
+				32D268F2FB83F1458FC2A14A /* SimpleCommand.h in Headers */,
+				2B666EB8889590694A6400CF /* View.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2C947B591AA2A62B04D58595 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADDBE56FB5A9AB0060AB8032 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				ABB9CA74D882A8DDE8422A74 /* Sources */,
+				5E5CDCFB50AD96AFC1CD84E4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63FB94C09C5B01AE106C33A7 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 8DDF7F8E7A8D5D6008FB66F9 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3C79DE54721CBBE3E5DF895B /* Pods-puremvc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFDBA485F5A2C0240C683AF6 /* Build configuration list for PBXNativeTarget "Pods-puremvc" */;
+			buildPhases = (
+				F9F4AC1DB8A938D1FD0ED66B /* Sources */,
+				33655970F811C32176400198 /* Frameworks */,
+				A9FEA79D5C87B1E10897DB60 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-puremvc";
+			productName = "Pods-puremvc";
+			productReference = F1B7C67B980947FDD3CB401A /* libPods-puremvc.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		535D139EEB9AE4697B7EED92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = A4872B6F5099923604E92AA7 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E6FC59ADD56B3CA301B74C27;
+			productRefGroup = 3CE49BDD3E8CA65573F2B2D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C947B591AA2A62B04D58595 /* Pods */,
+				3C79DE54721CBBE3E5DF895B /* Pods-puremvc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABB9CA74D882A8DDE8422A74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B7BD2C38F17F432E8CED4FD /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F4AC1DB8A938D1FD0ED66B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F88FAA41FD67FA104A83A67 /* Controller.m in Sources */,
+				70C5B6A974A8F477B3A6892D /* Facade.m in Sources */,
+				B79A722FD31387B22D9E13CA /* MacroCommand.m in Sources */,
+				22F4AA06A715187277DD8915 /* Mediator.m in Sources */,
+				29D2AFB49DF308A6E7A1028C /* Model.m in Sources */,
+				961757A1A37487A8403B30EF /* Notification.m in Sources */,
+				2D95A45633260F791C239BC7 /* Notifier.m in Sources */,
+				27549590B5DC4D151A85509B /* Observer.m in Sources */,
+				DCCEBF41515EEAB499DDD732 /* Pods-puremvc-dummy.m in Sources */,
+				74262F1C3A636D96E1082D7B /* Proxy.m in Sources */,
+				267BE3E5D2F717047F77EA24 /* SimpleCommand.m in Sources */,
+				286B71C8C1B0BD5B285F5E1D /* View.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63FB94C09C5B01AE106C33A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-puremvc";
+			target = 3C79DE54721CBBE3E5DF895B /* Pods-puremvc */;
+			targetProxy = 9BB97ACA9306206E77CCA038 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2662931DD4ACC72399451757 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2D359FEFC3702B16E7EA8763 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78B43C19811F3884FFFBCF0D /* Pods-puremvc-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-puremvc/Pods-puremvc-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		481B6103747BC49D76AA1233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1435FE904A4392599B5A366A /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		692EC413E9D0EEAC2B11B138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6A402F5F02430010DC19766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D748067BE3366C735E4803AC /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FEFCF58F91220FE4047076E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78B43C19811F3884FFFBCF0D /* Pods-puremvc-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-puremvc/Pods-puremvc-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4872B6F5099923604E92AA7 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2662931DD4ACC72399451757 /* Debug */,
+				692EC413E9D0EEAC2B11B138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADDBE56FB5A9AB0060AB8032 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				481B6103747BC49D76AA1233 /* Debug */,
+				C6A402F5F02430010DC19766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFDBA485F5A2C0240C683AF6 /* Build configuration list for PBXNativeTarget "Pods-puremvc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D359FEFC3702B16E7EA8763 /* Debug */,
+				FEFCF58F91220FE4047076E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 535D139EEB9AE4697B7EED92 /* Project object */;
+}

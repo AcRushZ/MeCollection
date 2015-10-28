@@ -1,0 +1,10 @@
+PODS:
+  - puremvc (0.0.1)
+
+DEPENDENCIES:
+  - puremvc
+
+SPEC CHECKSUMS:
+  puremvc: 399968c11c9d4e30dd5ddcf810781f582469e26e
+
+COCOAPODS: 0.37.2
